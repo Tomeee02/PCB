@@ -34,4 +34,8 @@ void loop() {
 }
 
 //narancs, fekete, lila, fehér, kék
-//narancs -> 
+//narancs -> 5v
+//fekete -> A0
+//lila -> 2
+//fehér -> GND
+//kék -> A1
