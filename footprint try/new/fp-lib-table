@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Dome")(type "KiCad")(uri "${KIPRJMOD}/Dome.pretty")(options "")(descr ""))
+)
