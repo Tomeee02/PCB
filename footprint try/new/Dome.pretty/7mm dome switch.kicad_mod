@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 2.96 0)
+		(at 0.4 4.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5af37331-11b5-4c47-bf22-d2dc192b8be6")
@@ -164,7 +164,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -9.5 0.1)
+		(at -9.1 0.1)
 		(size 1 1)
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")

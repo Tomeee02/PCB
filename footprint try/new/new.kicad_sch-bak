@@ -2797,7 +2797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 82.55 147.32 0)
 			(effects
 				(font
@@ -2865,7 +2865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 173.99 147.32 0)
 			(effects
 				(font
@@ -3197,7 +3197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 67.31 125.73 0)
 			(effects
 				(font
@@ -3265,7 +3265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 173.99 105.41 0)
 			(effects
 				(font
@@ -3333,7 +3333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 173.99 64.77 0)
 			(effects
 				(font
@@ -3489,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 113.03 64.77 0)
 			(effects
 				(font
@@ -3645,7 +3645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -3713,7 +3713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 128.27 43.18 0)
 			(effects
 				(font
@@ -4485,7 +4485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -4553,7 +4553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 173.99 125.73 0)
 			(effects
 				(font
@@ -4797,7 +4797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 67.31 86.36 0)
 			(effects
 				(font
@@ -4865,7 +4865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 143.51 43.18 0)
 			(effects
 				(font
@@ -5197,7 +5197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 52.07 147.32 0)
 			(effects
 				(font
@@ -5353,7 +5353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 82.55 86.36 0)
 			(effects
 				(font
@@ -5421,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 113.03 86.36 0)
 			(effects
 				(font
@@ -5577,7 +5577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 113.03 105.41 0)
 			(effects
 				(font
@@ -5733,7 +5733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 158.75 43.18 0)
 			(effects
 				(font
@@ -5977,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 52.07 86.36 0)
 			(effects
 				(font
@@ -6045,7 +6045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 97.79 105.41 0)
 			(effects
 				(font
@@ -6113,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 97.79 64.77 0)
 			(effects
 				(font
@@ -6269,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 52.07 125.73 0)
 			(effects
 				(font
@@ -6337,7 +6337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -6845,7 +6845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 97.79 43.18 0)
 			(effects
 				(font
@@ -6913,7 +6913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 97.79 147.32 0)
 			(effects
 				(font
@@ -7069,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 173.99 86.36 0)
 			(effects
 				(font
@@ -7137,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 97.79 86.36 0)
 			(effects
 				(font
@@ -7293,7 +7293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 128.27 64.77 0)
 			(effects
 				(font
@@ -7537,7 +7537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 143.51 105.41 0)
 			(effects
 				(font
@@ -7693,7 +7693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 158.75 86.36 0)
 			(effects
 				(font
@@ -7849,7 +7849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 143.51 86.36 0)
 			(effects
 				(font
@@ -8005,7 +8005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 52.07 64.77 0)
 			(effects
 				(font
@@ -8425,7 +8425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 173.99 43.18 0)
 			(effects
 				(font
@@ -8493,7 +8493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 143.51 64.77 0)
 			(effects
 				(font
@@ -8649,7 +8649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 189.23 105.41 0)
 			(effects
 				(font
@@ -8717,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 67.31 147.32 0)
 			(effects
 				(font
@@ -8961,7 +8961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 128.27 105.41 0)
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 158.75 105.41 0)
 			(effects
 				(font
@@ -9185,7 +9185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 113.03 125.73 0)
 			(effects
 				(font
@@ -9253,7 +9253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 67.31 43.18 0)
 			(effects
 				(font
@@ -9321,7 +9321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -9477,7 +9477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 189.23 125.73 0)
 			(effects
 				(font
@@ -9633,7 +9633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 143.51 125.73 0)
 			(effects
 				(font
@@ -9789,7 +9789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -9857,7 +9857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 67.31 64.77 0)
 			(effects
 				(font
@@ -9925,7 +9925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 113.03 147.32 0)
 			(effects
 				(font
@@ -9993,7 +9993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 189.23 43.18 0)
 			(effects
 				(font
@@ -10149,7 +10149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 113.03 43.18 0)
 			(effects
 				(font
@@ -10217,7 +10217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 158.75 125.73 0)
 			(effects
 				(font
@@ -10373,7 +10373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -10441,7 +10441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 143.51 147.32 0)
 			(effects
 				(font
@@ -10509,7 +10509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 82.55 125.73 0)
 			(effects
 				(font
@@ -10665,7 +10665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 128.27 125.73 0)
 			(effects
 				(font
@@ -10733,7 +10733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 158.75 147.32 0)
 			(effects
 				(font
@@ -10801,7 +10801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 52.07 43.18 0)
 			(effects
 				(font
@@ -10957,7 +10957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dome:7mm dome switch"
+		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
 			(at 82.55 105.41 0)
 			(effects
 				(font
