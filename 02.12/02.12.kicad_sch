@@ -1,13 +1,17 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "06b8a954-5609-4ecf-bb16-461fa8c2d517")
 	(paper "A4")
 	(lib_symbols
 		(symbol "ScottoKeebs:Placeholder_Diode"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -105,10 +109,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -117,10 +121,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -166,11 +170,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ScottoKeebs:Placeholder_Keyswitch"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -228,6 +237,18 @@
 				)
 			)
 			(symbol "Placeholder_Keyswitch_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -263,10 +284,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -279,17 +299,6 @@
 					(pts
 						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -335,13 +344,8 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 172.72 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01405069-b2ee-4757-99a9-22b4d3bcb165")
 	)
 	(junction
 		(at 132.08 137.16)
@@ -350,10 +354,22 @@
 		(uuid "017b0150-7504-424c-a2ec-a9172659bd87")
 	)
 	(junction
+		(at 127 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "030821f2-2810-4b6b-9d95-8ced7ae97419")
+	)
+	(junction
 		(at 81.28 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "058c324f-04d3-47a7-94fd-5af6ca21cf91")
+	)
+	(junction
+		(at 66.04 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07244a41-e6e7-4757-82e8-0ee20f6efe2d")
 	)
 	(junction
 		(at 132.08 97.79)
@@ -368,16 +384,10 @@
 		(uuid "09a98d19-5ebe-4102-bd2d-6f6ca0943af5")
 	)
 	(junction
-		(at 157.48 63.5)
+		(at 127 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e481ffd-d10d-4399-b75e-bdfa82ebcc93")
-	)
-	(junction
-		(at 66.04 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f05d58c-8601-4ac7-bf71-6d40055dcf9e")
+		(uuid "0a827c12-850b-411e-93b0-c3988d4bba03")
 	)
 	(junction
 		(at 132.08 54.61)
@@ -386,34 +396,10 @@
 		(uuid "127d8efe-033f-4be3-9b2a-638e3437118e")
 	)
 	(junction
-		(at 50.8 41.91)
+		(at 50.8 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "140afb3a-0634-404c-9427-aa36c8c3207e")
-	)
-	(junction
-		(at 172.72 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14e89f1d-447c-4500-8dbe-14980cadea59")
-	)
-	(junction
-		(at 81.28 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16d41a92-e31c-4590-9015-4b5e44a6ed8e")
-	)
-	(junction
-		(at 127 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1807cd10-8482-49f3-a290-f90c6a028dc8")
-	)
-	(junction
-		(at 127 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1858ef3c-5592-4ad5-a7b1-b67a60448577")
+		(uuid "197c606c-aba9-4681-9715-61a9458f0a20")
 	)
 	(junction
 		(at 101.6 137.16)
@@ -458,22 +444,28 @@
 		(uuid "20d2320a-ccaf-4e56-88d9-4fc27081683a")
 	)
 	(junction
+		(at 127 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2449e823-2566-4dd9-8b90-ffc4ef20f611")
+	)
+	(junction
 		(at 147.32 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "254a7210-4fcc-4695-b624-a81322eec5fa")
 	)
 	(junction
+		(at 127 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25504cee-7de6-42f3-b767-a3914b791723")
+	)
+	(junction
 		(at 177.8 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2563d825-7aa3-4051-8101-86f55fca9f57")
-	)
-	(junction
-		(at 142.24 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "278020c8-7574-43de-94aa-181001272edb")
 	)
 	(junction
 		(at 86.36 97.79)
@@ -494,12 +486,6 @@
 		(uuid "2c328080-b0fc-4f61-bcad-708b432bd16c")
 	)
 	(junction
-		(at 127 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c73ca3c-3515-4177-9987-aece7b9ddc3f")
-	)
-	(junction
 		(at 156.21 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -518,58 +504,28 @@
 		(uuid "31fd453e-8bd9-4bc3-b4cd-be7a3e984bf4")
 	)
 	(junction
-		(at 157.48 104.14)
+		(at 66.04 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37099698-6f18-46ad-ad57-36ad6cd6493e")
+		(uuid "323bc7e1-b410-49ba-8bfa-c29c33f80342")
 	)
 	(junction
-		(at 50.8 85.09)
+		(at 50.8 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "379c1c33-aa3a-4f20-9471-2e557a7d0e31")
+		(uuid "3520fc85-c27c-47f4-bc6f-e718154e98eb")
 	)
 	(junction
-		(at 111.76 41.91)
+		(at 142.24 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3901fce2-866d-4a42-aa69-4c5e9d2b0d2b")
+		(uuid "3aceda0f-6a75-46c8-b505-b7f4b28e4878")
 	)
 	(junction
-		(at 66.04 85.09)
+		(at 96.52 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39a46e2d-331a-4842-9e6d-16032f751487")
-	)
-	(junction
-		(at 35.56 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a321600-18fc-4ba5-9902-fda38e461237")
-	)
-	(junction
-		(at 96.52 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b994f76-4807-4e30-96e6-ec5fe0e64edb")
-	)
-	(junction
-		(at 50.8 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bb5e878-3677-45b0-898e-2822f698f04e")
-	)
-	(junction
-		(at 35.56 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ec95f64-fb64-47aa-867a-8c916591a008")
-	)
-	(junction
-		(at 50.8 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40cdb4e0-508c-4443-b6da-d10bcfe0cf64")
+		(uuid "400ce298-f891-4382-b3d2-adc88242eaf5")
 	)
 	(junction
 		(at 55.88 54.61)
@@ -590,28 +546,28 @@
 		(uuid "4306a3e3-c951-471a-9423-961ee98c3bb2")
 	)
 	(junction
-		(at 96.52 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4595a38d-e998-431e-b473-58022cc65f34")
-	)
-	(junction
-		(at 81.28 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51a122fb-2ea0-4bff-846c-2413310074f5")
-	)
-	(junction
 		(at 86.36 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5224eecd-b919-44aa-a398-67e35214d24a")
 	)
 	(junction
+		(at 50.8 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54232ab4-3b65-4594-87c4-8b2c35c14eed")
+	)
+	(junction
 		(at 66.04 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "58d3ea5a-df26-4b9f-a24b-258f73f7bfbe")
+		(uuid "543da3a2-426e-4711-a052-6523a7f25add")
+	)
+	(junction
+		(at 142.24 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57c23c6e-9419-4ae9-b450-07e7a4fd5fbe")
 	)
 	(junction
 		(at 101.6 54.61)
@@ -620,16 +576,10 @@
 		(uuid "5935a0f2-cb57-41de-a43e-c487c3491af5")
 	)
 	(junction
-		(at 35.56 85.09)
+		(at 157.48 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d327ad5-355b-4823-b73e-fa23477a5ffa")
-	)
-	(junction
-		(at 111.76 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f1e36d5-1d9d-45fc-850d-82537b71bbc6")
+		(uuid "61566858-8464-4ef8-831a-1c768339e665")
 	)
 	(junction
 		(at 86.36 158.75)
@@ -638,28 +588,22 @@
 		(uuid "642d1884-46e5-45d0-b996-687f1dff4ef5")
 	)
 	(junction
-		(at 142.24 63.5)
+		(at 111.76 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6627dd72-82b8-44ef-bd10-b45487ab5b95")
+		(uuid "66874d0a-c10d-42ac-87d5-be9a2e295ce7")
 	)
 	(junction
-		(at 142.24 41.91)
+		(at 35.56 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b0f2e82-d2ce-41b8-8405-907fa716e2d8")
+		(uuid "6d94834c-ba50-4d5b-a588-b8b5a8865c83")
 	)
 	(junction
-		(at 157.48 41.91)
+		(at 50.8 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6fabbe16-96e3-407a-aa98-741bdeabbb7c")
-	)
-	(junction
-		(at 81.28 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73319679-b02d-4848-95e1-c7e7dec7cad8")
+		(uuid "73af18c2-dd37-4632-926d-bf1791c1ac6f")
 	)
 	(junction
 		(at 147.32 116.84)
@@ -668,10 +612,28 @@
 		(uuid "7513f8c1-80f3-4cbb-ac56-34f421f75b36")
 	)
 	(junction
+		(at 35.56 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75cbc45e-70a0-48b7-beec-df34a7e9013b")
+	)
+	(junction
 		(at 55.88 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76714d56-c761-4f0b-bbb3-e746e7c6fce6")
+	)
+	(junction
+		(at 172.72 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "772fe39f-ecdb-4f2f-81cc-07cf951ecc6f")
+	)
+	(junction
+		(at 157.48 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b86673-5498-47d6-9675-64354965a172")
 	)
 	(junction
 		(at 157.48 43.18)
@@ -692,16 +654,28 @@
 		(uuid "7dccb631-9f6e-4d29-8ec8-b31ad1ccc847")
 	)
 	(junction
-		(at 111.76 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e66f3b4-b136-4955-adad-b8f1aca7d654")
-	)
-	(junction
 		(at 147.32 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8203fe44-d12a-49e1-a0be-f6751cf76e95")
+	)
+	(junction
+		(at 111.76 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a24698e-99c4-40e3-8b91-4d5336cf9e7a")
+	)
+	(junction
+		(at 96.52 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c6fece2-bdbe-482f-bdfa-f3dba0642989")
+	)
+	(junction
+		(at 172.72 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d01f64b-7241-41bc-94ef-76dc3cf2ded6")
 	)
 	(junction
 		(at 66.04 40.64)
@@ -710,10 +684,16 @@
 		(uuid "8de3f67e-afd3-4801-9962-598fd4f9158f")
 	)
 	(junction
-		(at 96.52 104.14)
+		(at 172.72 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "900deac8-56cf-4bca-ac56-e5e9bc6795c3")
+		(uuid "8f9e848a-988d-4251-b554-a2de77085f58")
+	)
+	(junction
+		(at 127 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92418b15-c686-49d2-8ab0-f67857e03c0a")
 	)
 	(junction
 		(at 162.56 137.16)
@@ -728,6 +708,24 @@
 		(uuid "9ef4f438-e8c9-4caf-9f80-4bd6b55e611e")
 	)
 	(junction
+		(at 96.52 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a200680d-f75b-4d28-b30e-93c08f56a902")
+	)
+	(junction
+		(at 142.24 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a205f0fe-e25f-4dfb-8017-5129154f8ce6")
+	)
+	(junction
+		(at 81.28 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a38ef07e-caab-4f4a-b749-6b86c05e4612")
+	)
+	(junction
 		(at 55.88 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -740,10 +738,10 @@
 		(uuid "acc6887c-585f-4dd2-96ab-2dd7fbd990ed")
 	)
 	(junction
-		(at 142.24 104.14)
+		(at 66.04 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae1dc136-3666-4351-98d8-d589ea894208")
+		(uuid "b062176f-98ae-4025-82d7-a72ff52c41fa")
 	)
 	(junction
 		(at 162.56 97.79)
@@ -758,16 +756,28 @@
 		(uuid "b5ad1a2a-2887-4bca-8824-7764beadd4db")
 	)
 	(junction
-		(at 157.48 85.09)
+		(at 81.28 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7e424fb-28f1-4001-8793-766ef66083f0")
+		(uuid "b6b11aaa-b8f9-4584-ba3b-9c1bca17852a")
 	)
 	(junction
-		(at 96.52 41.91)
+		(at 50.8 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8b4381d-1af3-4ee0-953a-88105eaee435")
+		(uuid "b7fa060c-bcfc-4bd4-a6b8-b53fe75d363e")
+	)
+	(junction
+		(at 142.24 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b804e99d-c724-4712-a6f9-951cdf9909b8")
+	)
+	(junction
+		(at 111.76 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9aa55ef-467d-45be-b98d-b6d5ffeca2bb")
 	)
 	(junction
 		(at 101.6 97.79)
@@ -776,10 +786,10 @@
 		(uuid "bb1586e2-ff97-4f0f-b658-f319b380cef9")
 	)
 	(junction
-		(at 111.76 104.14)
+		(at 157.48 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2d88f07-5c8a-46d8-ad60-5c36860e3d72")
+		(uuid "c30c1938-1c2f-4504-be0a-afe3c3af59c1")
 	)
 	(junction
 		(at 71.12 54.61)
@@ -788,10 +798,10 @@
 		(uuid "c4d063a9-0462-43f6-b56a-850bd507b776")
 	)
 	(junction
-		(at 50.8 124.46)
+		(at 35.56 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca7b410a-3ccd-450f-bf38-3dde6b34fd90")
+		(uuid "c799e1d6-b96d-4307-9a5b-64643b19cda8")
 	)
 	(junction
 		(at 71.12 116.84)
@@ -809,19 +819,19 @@
 		(at 81.28 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce2073c7-7fdd-47ae-9014-2abaca8393f8")
+		(uuid "cd208d1a-7a46-41a0-87f2-5f596d31f75d")
 	)
 	(junction
-		(at 172.72 41.91)
+		(at 81.28 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce2293d9-923e-4ef0-af73-66434cfe78cc")
+		(uuid "cfeaeeab-9ea6-4811-adc4-d52997e2916b")
 	)
 	(junction
 		(at 81.28 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d097c0a2-9033-4236-be10-c05eb1f0839c")
+		(uuid "cfedc541-929c-4bc0-8921-c931954ca7de")
 	)
 	(junction
 		(at 86.36 76.2)
@@ -830,16 +840,22 @@
 		(uuid "d7f40801-e1e9-4ef0-935e-3273df5db8ec")
 	)
 	(junction
-		(at 127 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d95800f6-c5a8-4e78-88b1-0918370d5e44")
-	)
-	(junction
 		(at 132.08 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da7dea32-49da-4ae4-a9d2-9077d62e90d0")
+	)
+	(junction
+		(at 111.76 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc0056f8-5c4f-4bb3-ba43-688cfaa43195")
+	)
+	(junction
+		(at 157.48 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc991824-2687-460f-9006-f7dd9135a19f")
 	)
 	(junction
 		(at 55.88 76.2)
@@ -854,22 +870,28 @@
 		(uuid "e24416b4-acd3-4780-801e-4b86cf99b5f4")
 	)
 	(junction
+		(at 96.52 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e67fb93b-8e69-4c46-9dd1-34f08498c803")
+	)
+	(junction
+		(at 142.24 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e74bd881-e9f6-416f-8327-316a99f8d11a")
+	)
+	(junction
 		(at 132.08 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9252422-26e5-4363-8da4-bf41a602585f")
 	)
 	(junction
-		(at 66.04 104.14)
+		(at 96.52 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed76549a-9576-422a-be80-a91152ae30c8")
-	)
-	(junction
-		(at 35.56 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef067979-c5bb-4f4c-81c7-f2964e1ac8f2")
+		(uuid "edabe672-731d-459e-a8a9-17349b5f4bcc")
 	)
 	(junction
 		(at 132.08 76.2)
@@ -878,22 +900,22 @@
 		(uuid "ef1077f0-34ca-4388-b6c8-b340852a4704")
 	)
 	(junction
-		(at 127 124.46)
+		(at 157.48 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef243f26-43b2-4edd-8081-099bf163d553")
+		(uuid "f2bb4fb6-d07b-4fa7-b33b-6fab415a87b0")
+	)
+	(junction
+		(at 35.56 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4c46f4a-11b2-4009-8975-49df34923f2f")
 	)
 	(junction
 		(at 116.84 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5dd88f9-ac3f-4937-9f3b-6289395a4dc2")
-	)
-	(junction
-		(at 157.48 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f761ee1c-863d-49dc-a19c-38549ad9d878")
 	)
 	(junction
 		(at 147.32 54.61)
@@ -908,18 +930,6 @@
 		(uuid "f9c9debf-1ef8-4c2e-bd8c-0964c568e22a")
 	)
 	(junction
-		(at 96.52 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd213ef6-6802-409a-8109-21eef8601981")
-	)
-	(junction
-		(at 142.24 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fda2190d-dbed-4d43-8c00-994f52c8b5d6")
-	)
-	(junction
 		(at 71.12 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -927,13 +937,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 85.09) (xy 111.76 104.14)
+			(xy 111.76 63.5) (xy 111.76 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0020ef14-e646-427b-9869-8a3ca22f02e1")
+	)
+	(wire
+		(pts
+			(xy 172.72 85.09) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ebd5b2-9db8-47d9-ae87-bdf170ef7884")
 	)
 	(wire
 		(pts
@@ -967,17 +987,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 124.46) (xy 81.28 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "068f57ac-fe4b-4d6b-b430-ecf77216c3c3")
-	)
-	(wire
-		(pts
-			(xy 96.52 41.91) (xy 96.52 63.5)
+			(xy 96.52 34.29) (xy 96.52 41.91)
 		)
 		(stroke
 			(width 0)
@@ -997,13 +1007,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 41.91) (xy 81.28 63.5)
+			(xy 35.56 41.91) (xy 35.56 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0dd56698-93ee-45a3-a5d8-2854749a1a6e")
+		(uuid "12f4f4a6-214e-4782-9d27-71b7eb797f26")
 	)
 	(wire
 		(pts
@@ -1017,7 +1027,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 124.46) (xy 127 146.05)
+			(xy 127 104.14) (xy 127 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 41.91) (xy 50.8 63.5)
+			(xy 50.8 34.29) (xy 50.8 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1067,13 +1077,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 41.91) (xy 111.76 63.5)
+			(xy 35.56 34.29) (xy 35.56 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1efd457d-09b4-4fc3-8c0a-92be565adf95")
+		(uuid "1f6b774d-ccba-414d-a9ae-597f5e921192")
 	)
 	(wire
 		(pts
@@ -1097,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 127 104.14)
+			(xy 127 63.5) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1117,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 157.48 124.46)
+			(xy 111.76 104.14) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3067a4f0-479f-4fd6-aca1-ec67190eec23")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1117,13 +1137,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 85.09) (xy 50.8 104.14)
+			(xy 50.8 63.5) (xy 50.8 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32b28d01-985d-4c15-a053-757f48cd6599")
+	)
+	(wire
+		(pts
+			(xy 50.8 41.91) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b0f621-5c71-4b2d-9075-233acd05b8db")
 	)
 	(wire
 		(pts
@@ -1144,6 +1174,16 @@
 			(type default)
 		)
 		(uuid "36cf8f4d-405a-484c-86ac-deb73895891e")
+	)
+	(wire
+		(pts
+			(xy 66.04 41.91) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36fb9eec-81f3-484c-955f-18ffc02cd369")
 	)
 	(wire
 		(pts
@@ -1177,23 +1217,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 111.76 124.46)
+			(xy 66.04 124.46) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d2c36c-0481-4a77-bfd1-bf208d3e5656")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 111.76 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d211763-f544-42f2-bde0-dce6eab44236")
-	)
-	(wire
-		(pts
-			(xy 172.72 104.14) (xy 172.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dcac3da-6207-4016-bf4d-0be46cd986fe")
 	)
 	(wire
 		(pts
@@ -1237,7 +1277,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 124.46) (xy 66.04 146.05)
+			(xy 66.04 104.14) (xy 66.04 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1257,7 +1297,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 104.14) (xy 142.24 124.46)
+			(xy 142.24 85.09) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1307,16 +1347,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 40.64) (xy 66.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514811a7-66db-4f9f-80f9-e8c313d8e67f")
-	)
-	(wire
-		(pts
 			(xy 101.6 54.61) (xy 116.84 54.61)
 		)
 		(stroke
@@ -1357,6 +1387,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 124.46) (xy 81.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56051e03-f1a7-4959-af48-eb0a2d195e0b")
+	)
+	(wire
+		(pts
 			(xy 55.88 97.79) (xy 71.12 97.79)
 		)
 		(stroke
@@ -1367,7 +1407,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 124.46) (xy 35.56 146.05)
+			(xy 35.56 85.09) (xy 35.56 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1397,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 85.09) (xy 35.56 124.46)
+			(xy 35.56 63.5) (xy 35.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1417,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 111.76 85.09)
+			(xy 111.76 41.91) (xy 111.76 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1437,17 +1477,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 41.91) (xy 172.72 85.09)
+			(xy 127 124.46) (xy 127 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "656e83e0-5794-4d1f-9a15-060d30443068")
+		(uuid "69df07ac-e67c-41f6-9c7e-5826ca2f282e")
 	)
 	(wire
 		(pts
-			(xy 157.48 85.09) (xy 157.48 104.14)
+			(xy 157.48 63.5) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1457,47 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 85.09) (xy 172.72 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cdabd20-3735-4265-b1f1-6f985f49e61d")
-	)
-	(wire
-		(pts
-			(xy 96.52 104.14) (xy 96.52 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d18ed37-98f8-4418-b0c8-f14073369997")
-	)
-	(wire
-		(pts
-			(xy 50.8 63.5) (xy 50.8 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f080fbd-79af-4fc3-8eeb-1dde9a01dab5")
-	)
-	(wire
-		(pts
-			(xy 127 34.29) (xy 127 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fc61ddd-78fd-41a2-b29e-380d66ac5875")
-	)
-	(wire
-		(pts
-			(xy 127 104.14) (xy 127 124.46)
+			(xy 127 85.09) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1527,17 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 104.14) (xy 81.28 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a9402a2-8e90-4c31-80e5-246261fc226e")
-	)
-	(wire
-		(pts
-			(xy 66.04 104.14) (xy 66.04 124.46)
+			(xy 66.04 85.09) (xy 66.04 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1547,13 +1537,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 63.5) (xy 157.48 85.09)
+			(xy 157.48 124.46) (xy 157.48 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ee29772-5d40-42cd-9a22-5f666e7afb32")
+		(uuid "7e6bdf29-9844-41ba-9411-04f451524bc6")
 	)
 	(wire
 		(pts
@@ -1577,13 +1567,43 @@
 	)
 	(wire
 		(pts
-			(xy 127 41.91) (xy 127 63.5)
+			(xy 35.56 124.46) (xy 35.56 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818ab4a7-ae8f-4e1f-a01c-e8be5103ac7f")
+	)
+	(wire
+		(pts
+			(xy 127 34.29) (xy 127 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "82fa5bec-4c1c-48d1-aa82-0099d44fae43")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 142.24 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8663ba0b-412f-4ce4-adf8-0c5472582b8a")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.14) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8772d595-f984-4c7e-baaa-8137d09576a2")
 	)
 	(wire
 		(pts
@@ -1617,7 +1637,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 124.46) (xy 96.52 146.05)
+			(xy 81.28 104.14) (xy 81.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecf09e4-fe32-4b3b-92f1-7c24e573f36d")
+	)
+	(wire
+		(pts
+			(xy 96.52 104.14) (xy 96.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1637,7 +1667,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 41.91) (xy 66.04 85.09)
+			(xy 66.04 40.64) (xy 66.04 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1647,13 +1677,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 142.24 146.05)
+			(xy 142.24 104.14) (xy 142.24 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98ae0397-79b0-4b15-9a4d-414be8cf778d")
+		(uuid "972dfb0a-203d-418f-ba1a-cb07ad6da098")
 	)
 	(wire
 		(pts
@@ -1664,16 +1694,6 @@
 			(type default)
 		)
 		(uuid "990f936c-f098-45b2-8f33-bdf5fe1805ab")
-	)
-	(wire
-		(pts
-			(xy 35.56 63.5) (xy 35.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99cc6703-7ef2-4427-ac81-d8293e2cf14d")
 	)
 	(wire
 		(pts
@@ -1727,6 +1747,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 124.46) (xy 50.8 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69db91b-ef17-44dd-aeda-b3b7c9433da7")
+	)
+	(wire
+		(pts
 			(xy 116.84 116.84) (xy 132.08 116.84)
 		)
 		(stroke
@@ -1737,17 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 85.09) (xy 81.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae1b6627-9fed-4b9d-9a80-f8466f9c0c22")
-	)
-	(wire
-		(pts
-			(xy 142.24 41.91) (xy 142.24 63.5)
+			(xy 142.24 34.29) (xy 142.24 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1764,16 +1784,6 @@
 			(type default)
 		)
 		(uuid "b6aa58cc-9e2c-49f4-9e3e-2b7f18c9769b")
-	)
-	(wire
-		(pts
-			(xy 81.28 63.5) (xy 81.28 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7534ac3-8021-4764-9126-5b8716b5fbc0")
 	)
 	(wire
 		(pts
@@ -1797,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 124.46) (xy 50.8 146.05)
+			(xy 50.8 104.14) (xy 50.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1837,6 +1847,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 41.91) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e68c75-d5e5-4ba0-93ff-39622888767a")
+	)
+	(wire
+		(pts
 			(xy 101.6 116.84) (xy 116.84 116.84)
 		)
 		(stroke
@@ -1844,16 +1864,6 @@
 			(type default)
 		)
 		(uuid "c4fc9fe1-a18c-44dd-82f7-1a5e172d7151")
-	)
-	(wire
-		(pts
-			(xy 142.24 85.09) (xy 142.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c699d7a1-49af-4d0f-b1d5-59040f33647a")
 	)
 	(wire
 		(pts
@@ -1867,6 +1877,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 41.91) (xy 172.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88ff0fa-3508-474d-96d5-299fbf889419")
+	)
+	(wire
+		(pts
 			(xy 64.77 39.37) (xy 66.04 39.37)
 		)
 		(stroke
@@ -1877,17 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 85.09) (xy 66.04 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9e28e82-368d-442f-90bb-5f93414b81b8")
-	)
-	(wire
-		(pts
-			(xy 96.52 63.5) (xy 96.52 85.09)
+			(xy 96.52 41.91) (xy 96.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 124.46) (xy 157.48 146.05)
+			(xy 157.48 104.14) (xy 157.48 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1914,6 +1924,16 @@
 			(type default)
 		)
 		(uuid "cb249fb7-e9eb-4cbb-9ce7-cd9c63638245")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc96fe6-eccc-4a91-8c16-545e375f97ca")
 	)
 	(wire
 		(pts
@@ -1947,23 +1967,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 34.29) (xy 35.56 41.91)
+			(xy 81.28 41.91) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3ee36f1-ce67-4e44-90ba-0b5f67ae6d0b")
-	)
-	(wire
-		(pts
-			(xy 142.24 34.29) (xy 142.24 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5273fec-a165-44f3-9e94-aa94f25d31d4")
+		(uuid "d4507b19-9065-4ba6-bc92-c6f366194b98")
 	)
 	(wire
 		(pts
@@ -1974,16 +1984,6 @@
 			(type default)
 		)
 		(uuid "d945538a-a86b-41eb-9dd3-10a0576d0444")
-	)
-	(wire
-		(pts
-			(xy 142.24 63.5) (xy 142.24 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9fe76f0-7b89-4a80-b05a-6f35c99674b9")
 	)
 	(wire
 		(pts
@@ -2017,16 +2017,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 34.29) (xy 50.8 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4711b85-1c6e-464a-8af1-8f906db01e65")
-	)
-	(wire
-		(pts
 			(xy 81.28 40.64) (xy 81.28 41.91)
 		)
 		(stroke
@@ -2034,6 +2024,26 @@
 			(type default)
 		)
 		(uuid "e53b8c0a-57f6-4084-be24-9acad0d2b165")
+	)
+	(wire
+		(pts
+			(xy 81.28 85.09) (xy 81.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea47ebeb-15da-4d57-8753-dd5230192c4d")
+	)
+	(wire
+		(pts
+			(xy 96.52 85.09) (xy 96.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9fa95e-f8cf-4649-8964-81e73f472ece")
 	)
 	(wire
 		(pts
@@ -2067,17 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 34.29) (xy 96.52 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eebe5ed8-8eb6-4441-a9a2-7c55f609e1ac")
-	)
-	(wire
-		(pts
-			(xy 50.8 104.14) (xy 50.8 124.46)
+			(xy 50.8 85.09) (xy 50.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2087,23 +2087,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 127 85.09)
+			(xy 127 41.91) (xy 127 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef779ece-c0d1-4048-9e7f-5eb01d6ab30a")
-	)
-	(wire
-		(pts
-			(xy 35.56 41.91) (xy 35.56 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1114d6c-87bb-4e35-b4f5-4b0ab161ddea")
 	)
 	(wire
 		(pts
@@ -2117,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 85.09) (xy 96.52 104.14)
+			(xy 96.52 63.5) (xy 96.52 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2134,6 +2124,26 @@
 			(type default)
 		)
 		(uuid "f910f544-7db4-40b9-9d59-41fed44524a4")
+	)
+	(wire
+		(pts
+			(xy 96.52 124.46) (xy 96.52 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3f55f3-6dad-436e-b8d7-a6e98a94b83b")
+	)
+	(wire
+		(pts
+			(xy 81.28 63.5) (xy 81.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd25398d-1bf4-4f5c-809d-38edf77d440a")
 	)
 	(wire
 		(pts
@@ -2763,7 +2773,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 68.58 148.59 0)
+		(at 68.58 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2787,7 +2797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 68.58 148.59 0)
 			(effects
 				(font
@@ -2831,7 +2841,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 160.02 148.59 0)
+		(at 160.02 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2855,7 +2865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 160.02 148.59 0)
 			(effects
 				(font
@@ -3163,7 +3173,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 53.34 127 0)
+		(at 53.34 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3187,7 +3197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 53.34 127 0)
 			(effects
 				(font
@@ -3231,7 +3241,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 160.02 106.68 0)
+		(at 160.02 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3255,7 +3265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 160.02 106.68 0)
 			(effects
 				(font
@@ -3299,7 +3309,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 160.02 66.04 0)
+		(at 160.02 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3323,7 +3333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -3455,7 +3465,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 99.06 66.04 0)
+		(at 99.06 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3479,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -3611,7 +3621,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 175.26 87.63 0)
+		(at 175.26 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3635,7 +3645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -3679,7 +3689,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 114.3 44.45 0)
+		(at 114.3 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3703,7 +3713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 114.3 44.45 0)
 			(effects
 				(font
@@ -4451,7 +4461,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 83.82 127 0)
+		(at 83.82 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4475,7 +4485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 83.82 127 0)
 			(effects
 				(font
@@ -4519,7 +4529,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 160.02 127 0)
+		(at 160.02 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4543,7 +4553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -4763,7 +4773,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 53.34 87.63 0)
+		(at 53.34 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4787,7 +4797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 53.34 87.63 0)
 			(effects
 				(font
@@ -4831,7 +4841,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 129.54 44.45 0)
+		(at 129.54 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4855,7 +4865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 129.54 44.45 0)
 			(effects
 				(font
@@ -5163,7 +5173,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 38.1 148.59 0)
+		(at 38.1 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5187,7 +5197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 38.1 148.59 0)
 			(effects
 				(font
@@ -5319,7 +5329,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 68.58 87.63 0)
+		(at 68.58 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5343,7 +5353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 68.58 87.63 0)
 			(effects
 				(font
@@ -5387,7 +5397,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 99.06 87.63 0)
+		(at 99.06 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5411,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -5543,7 +5553,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 99.06 106.68 0)
+		(at 99.06 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5567,7 +5577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 99.06 106.68 0)
 			(effects
 				(font
@@ -5699,7 +5709,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 144.78 44.45 0)
+		(at 144.78 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5723,7 +5733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 144.78 44.45 0)
 			(effects
 				(font
@@ -5943,7 +5953,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 38.1 87.63 0)
+		(at 38.1 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5967,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 38.1 87.63 0)
 			(effects
 				(font
@@ -6011,7 +6021,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 83.82 106.68 0)
+		(at 83.82 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6035,7 +6045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 83.82 106.68 0)
 			(effects
 				(font
@@ -6079,7 +6089,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 83.82 66.04 0)
+		(at 83.82 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6103,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 83.82 66.04 0)
 			(effects
 				(font
@@ -6235,7 +6245,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 38.1 127 0)
+		(at 38.1 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6259,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 38.1 127 0)
 			(effects
 				(font
@@ -6303,7 +6313,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 53.34 106.68 0)
+		(at 53.34 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6327,7 +6337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -6811,7 +6821,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 83.82 44.45 0)
+		(at 83.82 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6835,7 +6845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 83.82 44.45 0)
 			(effects
 				(font
@@ -6879,7 +6889,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 83.82 148.59 0)
+		(at 83.82 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6903,7 +6913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 83.82 148.59 0)
 			(effects
 				(font
@@ -7035,7 +7045,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 160.02 87.63 0)
+		(at 160.02 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7059,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -7103,7 +7113,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 83.82 87.63 0)
+		(at 83.82 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7127,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 83.82 87.63 0)
 			(effects
 				(font
@@ -7259,7 +7269,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 114.3 66.04 0)
+		(at 114.3 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7283,7 +7293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 114.3 66.04 0)
 			(effects
 				(font
@@ -7503,7 +7513,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 129.54 106.68 0)
+		(at 129.54 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7527,7 +7537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 129.54 106.68 0)
 			(effects
 				(font
@@ -7659,7 +7669,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 144.78 87.63 0)
+		(at 144.78 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7683,7 +7693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -7815,7 +7825,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 129.54 87.63 0)
+		(at 129.54 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7839,7 +7849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 129.54 87.63 0)
 			(effects
 				(font
@@ -7971,7 +7981,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 38.1 66.04 0)
+		(at 38.1 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7995,7 +8005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -8391,7 +8401,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 160.02 44.45 0)
+		(at 160.02 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8415,7 +8425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 160.02 44.45 0)
 			(effects
 				(font
@@ -8459,7 +8469,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 129.54 66.04 0)
+		(at 129.54 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8483,7 +8493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -8615,7 +8625,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 175.26 106.68 0)
+		(at 175.26 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8639,7 +8649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 175.26 106.68 0)
 			(effects
 				(font
@@ -8683,7 +8693,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 53.34 148.59 0)
+		(at 53.34 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8707,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 53.34 148.59 0)
 			(effects
 				(font
@@ -8927,7 +8937,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 114.3 106.68 0)
+		(at 114.3 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8951,7 +8961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 114.3 106.68 0)
 			(effects
 				(font
@@ -8995,7 +9005,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 144.78 106.68 0)
+		(at 144.78 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9019,7 +9029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 144.78 106.68 0)
 			(effects
 				(font
@@ -9151,7 +9161,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 99.06 127 0)
+		(at 99.06 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9175,7 +9185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 99.06 127 0)
 			(effects
 				(font
@@ -9219,7 +9229,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 53.34 44.45 0)
+		(at 53.34 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9243,7 +9253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 53.34 44.45 0)
 			(effects
 				(font
@@ -9287,7 +9297,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 114.3 87.63 0)
+		(at 114.3 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9311,7 +9321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -9443,7 +9453,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 175.26 127 0)
+		(at 175.26 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9467,7 +9477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 175.26 127 0)
 			(effects
 				(font
@@ -9599,7 +9609,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 129.54 127 0)
+		(at 129.54 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9623,7 +9633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 129.54 127 0)
 			(effects
 				(font
@@ -9755,7 +9765,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 144.78 66.04 0)
+		(at 144.78 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9779,7 +9789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 144.78 66.04 0)
 			(effects
 				(font
@@ -9823,7 +9833,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 53.34 66.04 0)
+		(at 53.34 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9847,7 +9857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 53.34 66.04 0)
 			(effects
 				(font
@@ -9891,7 +9901,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 99.06 148.59 0)
+		(at 99.06 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9915,7 +9925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 99.06 148.59 0)
 			(effects
 				(font
@@ -9959,7 +9969,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 175.26 44.45 0)
+		(at 175.26 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9983,7 +9993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 175.26 44.45 0)
 			(effects
 				(font
@@ -10115,7 +10125,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 99.06 44.45 0)
+		(at 99.06 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10139,7 +10149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -10183,7 +10193,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 144.78 127 0)
+		(at 144.78 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10207,7 +10217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 144.78 127 0)
 			(effects
 				(font
@@ -10339,7 +10349,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 68.58 44.45 0)
+		(at 68.58 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10363,7 +10373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 68.58 44.45 0)
 			(effects
 				(font
@@ -10407,7 +10417,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 129.54 148.59 0)
+		(at 129.54 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10431,7 +10441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 129.54 148.59 0)
 			(effects
 				(font
@@ -10475,7 +10485,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 68.58 127 0)
+		(at 68.58 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10499,7 +10509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 68.58 127 0)
 			(effects
 				(font
@@ -10631,7 +10641,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 114.3 127 0)
+		(at 114.3 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10655,7 +10665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 114.3 127 0)
 			(effects
 				(font
@@ -10699,7 +10709,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 144.78 148.59 0)
+		(at 144.78 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10723,7 +10733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 144.78 148.59 0)
 			(effects
 				(font
@@ -10767,7 +10777,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 38.1 44.45 0)
+		(at 38.1 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10791,7 +10801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -10923,7 +10933,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 68.58 106.68 0)
+		(at 68.58 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10947,7 +10957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DomeSwitches:DomeSwitch_8mm_double_sided"
+		(property "Footprint" "Dome_05_30:dome_05_30"
 			(at 68.58 106.68 0)
 			(effects
 				(font
@@ -11082,4 +11092,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
