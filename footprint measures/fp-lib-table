@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprint measures")(type "KiCad")(uri "C:/Workspace/PCB/footprint measures.pretty")(options "")(descr ""))
+  (lib (name "domes")(type "KiCad")(uri "${KIPRJMOD}/domes.pretty")(options "")(descr ""))
+)
