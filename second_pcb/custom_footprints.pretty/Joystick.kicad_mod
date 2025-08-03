@@ -1,0 +1,86 @@
+(footprint "Joystick"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "781c8248-e8be-43ec-b394-56caef290a8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Joystick"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7f99b68-566f-473f-8ed6-bc6b5b9b66f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f099f3fc-fdbb-417f-ab93-70f150b38e3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d857396-69b8-4322-82bd-d5c1a8195000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "6" thru_hole circle
+		(at -9.45 7.2)
+		(size 1.2 1.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "63758021-e480-41d2-b60e-859195f16515")
+	)
+	(pad "6" thru_hole roundrect
+		(at 0 0.01)
+		(size 1.2 0.8)
+		(drill 15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "438a9f2a-9de1-4662-8062-09970a7d0f05")
+	)
+	(pad "6" thru_hole circle
+		(at 7.05 -10.9)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7f78419-fa8e-4e28-b017-e39eba56dd69")
+	)
+	(embedded_fonts no)
+)
