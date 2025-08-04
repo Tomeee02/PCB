@@ -1130,12 +1130,6 @@
 		(uuid "417e76bb-8c9f-4733-baef-b05f065b6444")
 	)
 	(junction
-		(at 26.67 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "438dfdf2-0230-4f81-b6ea-a17333a59b1c")
-	)
-	(junction
 		(at 81.28 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1178,10 +1172,22 @@
 		(uuid "531f3daf-d113-4d7f-bb63-15fb68e25ad4")
 	)
 	(junction
+		(at 43.18 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5931a09e-3756-400d-8f79-6a2287dc73b3")
+	)
+	(junction
 		(at 59.69 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a426c62-a9ae-47b8-bb5f-3887a6f49c15")
+	)
+	(junction
+		(at 26.67 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a76de5a-56a7-42bd-9651-c7c588adae39")
 	)
 	(junction
 		(at 81.28 67.31)
@@ -1218,12 +1224,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6df8a66c-86b4-4bd3-be22-556c498dde0f")
-	)
-	(junction
-		(at 26.67 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71d0267d-13bc-4980-8eff-e1b212235a42")
 	)
 	(junction
 		(at 114.3 115.57)
@@ -1334,10 +1334,22 @@
 		(uuid "a463de5e-73da-4bf1-9c46-41cfff02357b")
 	)
 	(junction
+		(at 26.67 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a59c772e-bdf9-43d5-a5b6-6fdc91e5fee0")
+	)
+	(junction
 		(at 59.69 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a94ac6a7-1b29-4019-92ca-cd45a209ec09")
+	)
+	(junction
+		(at 43.18 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab082750-056f-4586-8629-f4549e28a57d")
 	)
 	(junction
 		(at 64.77 91.44)
@@ -1374,12 +1386,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af090109-85ba-44ff-ad44-4fe2f58f92d8")
-	)
-	(junction
-		(at 43.18 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1f01c77-275e-46f6-8878-75a3ddee4146")
 	)
 	(junction
 		(at 147.32 102.87)
@@ -1458,12 +1464,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cebbf7a0-029a-4c51-8e7b-a2a4d1621ec3")
-	)
-	(junction
-		(at 43.18 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1cc1248-be8a-4d33-aeb4-e94fc93be971")
 	)
 	(junction
 		(at 152.4 182.88)
@@ -1921,16 +1921,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 31.75) (xy 26.67 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "575b951d-10ee-40a3-a492-538399b9f579")
-	)
-	(wire
-		(pts
 			(xy 109.22 31.75) (xy 109.22 54.61)
 		)
 		(stroke
@@ -1978,6 +1968,16 @@
 			(type default)
 		)
 		(uuid "5f01a560-083f-4eb5-8c06-26f9aa306256")
+	)
+	(wire
+		(pts
+			(xy 26.67 54.61) (xy 26.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fec7419-341c-43d0-a143-9d245e32b572")
 	)
 	(wire
 		(pts
@@ -2291,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 78.74) (xy 26.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a69919-0fba-4fb4-ad1d-5c4f5e12fb3b")
+	)
+	(wire
+		(pts
 			(xy 96.52 44.45) (xy 114.3 44.45)
 		)
 		(stroke
@@ -2571,7 +2581,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 54.61) (xy 26.67 78.74)
+			(xy 26.67 31.75) (xy 26.67 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2621,6 +2631,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 54.61) (xy 43.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e724c71f-f80c-44e4-8b3b-a7f4d633e178")
+	)
+	(wire
+		(pts
 			(xy 81.28 67.31) (xy 96.52 67.31)
 		)
 		(stroke
@@ -2631,7 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 54.61) (xy 43.18 102.87)
+			(xy 43.18 31.75) (xy 43.18 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2688,26 +2708,6 @@
 			(type default)
 		)
 		(uuid "f71f5d24-45a1-4914-8e74-c71a95dfcc77")
-	)
-	(wire
-		(pts
-			(xy 43.18 31.75) (xy 43.18 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ae766b-d180-4162-83d3-6fffc2dbcd66")
-	)
-	(wire
-		(pts
-			(xy 26.67 78.74) (xy 26.67 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9dc6ba1-3369-492f-bfc7-ec5bb6222750")
 	)
 	(wire
 		(pts
@@ -5290,7 +5290,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 29.21 57.15 0)
+		(at 29.21 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5499,7 +5499,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 29.21 81.28 0)
+		(at 29.21 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11797,7 +11797,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 45.72 57.15 0)
+		(at 45.72 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12981,79 +12981,6 @@
 			(project "second_pcb"
 				(path "/fba27e40-e473-4210-a509-ee0b8da09b69"
 					(reference "D53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Reference_Voltage:CJ432")
-		(at 252.73 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7dfb2ec-3bb5-47b9-946f-8c0c3997d3ab")
-		(property "Reference" "U62"
-			(at 252.73 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CJ432"
-			(at 252.73 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lettersAndNumbers:Esc"
-			(at 252.73 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.cj-elec.com/txUpfile/20134181474991806.pdf"
-			(at 252.73 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt Regulator, SOT-23"
-			(at 252.73 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9774f0de-feee-4c28-bfff-ca16b471c51e")
-		)
-		(pin "3"
-			(uuid "018a58d3-5f9f-40b4-ad5d-52e363612b8e")
-		)
-		(pin "2"
-			(uuid "204774c6-3b2b-4ce1-b7e8-ec8fcdcf8fef")
-		)
-		(instances
-			(project "second_pcb"
-				(path "/fba27e40-e473-4210-a509-ee0b8da09b69"
-					(reference "U62")
 					(unit 1)
 				)
 			)
@@ -14982,7 +14909,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 45.72 34.29 0)
+		(at 45.72 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
