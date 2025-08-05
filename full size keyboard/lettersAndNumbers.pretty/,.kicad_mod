@@ -1,0 +1,144 @@
+(footprint ","
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6f557c7e-506d-474b-ae62-02b0e8dc13e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" ","
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "662fa64c-ecd2-4e8c-8f8f-d058b9fc193b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd455b2e-07ed-433e-a280-294d05c3a62d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99173fb0-e67a-4861-a6ab-6e1f9986f82f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -4.4)
+		(end -0.9 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30f21746-ede8-4122-b87b-1a77efabda1d")
+	)
+	(fp_line
+		(start 0.9 -4.4)
+		(end 0.9 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9eff44ee-5603-4343-9ded-9721772954d3")
+	)
+	(fp_arc
+		(start -0.9 -4.4)
+		(mid 0 -5.3)
+		(end 0.9 -4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "20dfbadf-658f-4d1a-bfa3-5fa313088600")
+	)
+	(fp_text user "?"
+		(at -0.26 -5.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d38ca943-45cb-4af5-a98f-b9b8d22e11e5")
+		(effects
+			(font
+				(face "Agency FB")
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "?" 0
+			(polygon
+				(pts
+					(xy 0.209984 -6.225504) (xy 0.204603 -6.186335) (xy 0.188796 -6.15217) (xy 0.049455 -5.939068)
+					(xy 0.049455 -5.712288) (xy -0.046165 -5.712288) (xy -0.046165 -5.915071) (xy -0.040908 -5.957344)
+					(xy -0.026381 -5.989443) (xy 0.115034 -6.200286) (xy 0.115034 -6.454787) (xy -0.103562 -6.454787)
+					(xy -0.103562 -6.216406) (xy -0.198511 -6.216406) (xy -0.198511 -6.461503) (xy -0.192878 -6.493706)
+					(xy -0.176652 -6.518595) (xy -0.15215 -6.535115) (xy -0.121331 -6.54076) (xy 0.132803 -6.54076)
+					(xy 0.164138 -6.535074) (xy 0.188429 -6.518595) (xy 0.20442 -6.493731) (xy 0.209984 -6.461503)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.053546 -5.47) (xy -0.050256 -5.47) (xy -0.050256 -5.591144) (xy 0.053546 -5.591144)
+				)
+			)
+		)
+	)
+	(fp_text user ","
+		(at -0.13 -3.69 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f5863253-948c-4ff1-b7a3-183ea80d9fcb")
+		(effects
+			(font
+				(face "Agency FB")
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(render_cache "," 0
+			(polygon
+				(pts
+					(xy 0.091345 -4.024131) (xy 0.011416 -3.750579) (xy -0.092447 -3.750579) (xy -0.072602 -4.024131)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

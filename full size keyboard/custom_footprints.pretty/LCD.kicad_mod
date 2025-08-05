@@ -1,4 +1,4 @@
-(footprint "Untitled"
+(footprint "LCD"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5f2893ed-c3f2-4a75-969b-2c7ebab2538b")
+		(uuid "00798b44-92ae-4ece-8229-cb58ff3d1581")
 		(effects
 			(font
 				(size 1 1)
@@ -16,12 +16,12 @@
 			)
 		)
 	)
-	(property "Value" "Untitled"
+	(property "Value" "LCD"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "50bb4693-07a2-4ddd-b37a-87cc99c56e5b")
+		(uuid "648c3562-b547-4efd-ac2c-1dff488b2711")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cf0e91c1-28b6-4526-b1e0-d982e25703da")
+		(uuid "b19a1e71-ecef-447d-bd1a-66c6fd51c16c")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c0fe74d1-337b-4192-9391-a2013c1f89fd")
+		(uuid "62f99712-3ea1-45be-a4fb-20565db3486b")
 		(effects
 			(font
 				(size 1 1)
@@ -107,8 +107,8 @@
 		(uuid "6620d805-53a8-412d-b639-a7c6ce614fee")
 	)
 	(fp_rect
-		(start -58 -36)
-		(end 58 36)
+		(start -56.06 -36)
+		(end 56.06 36)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -161,17 +161,6 @@
 		(layer "F.SilkS")
 		(uuid "03a08ac3-5969-4750-b39e-050d4987f5a8")
 	)
-	(fp_rect
-		(start 53 -34)
-		(end 57.95 34)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "5361b6c9-893b-4af7-9c8c-2106e5d98480")
-	)
 	(fp_arc
 		(start -49.65 27.81)
 		(mid -47.46504 28.71504)
@@ -193,94 +182,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "8873eeed-8605-4693-a0e0-76d638f2e5ff")
-	)
-	(fp_rect
-		(start -52.99 -27.49)
-		(end -42.52 27.78)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "ee6a2519-da97-432b-bcbb-999c0fab2fe6")
-	)
-	(fp_rect
-		(start -46.25 -33.95)
-		(end 48.31 30.95)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "3c8d9718-47b1-4986-a17c-baf89c2f3848")
-	)
-	(fp_rect
-		(start -46.25 27.78)
-		(end 48.33 34)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "3bac7953-a009-4fa5-ac36-3c794596be6b")
-	)
-	(fp_rect
-		(start 45.73 27.71)
-		(end 49.72 30.95)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "4dc57f70-6add-4221-b57f-3ba5f054fd6a")
-	)
-	(fp_rect
-		(start 47.32 29.29)
-		(end 49.78 30.95)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "adbff8cd-e9ab-46e0-bb18-0a30d6fab9cd")
-	)
-	(fp_rect
-		(start 47.44 -30.905)
-		(end 49.65 -29.115)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "a2db0484-46d6-42b5-9cd2-525424efbfd8")
-	)
-	(fp_rect
-		(start 47.89 -29.5)
-		(end 53 29.61)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "fc516877-6782-462d-9b50-bec8d84ee8bd")
-	)
-	(fp_circle
-		(center -56.59 -31)
-		(end -59.59 -30.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "fc92b084-5096-4cb3-94a9-1758cae23125")
 	)
 	(fp_circle
 		(center -49.66 -30.87)
@@ -314,17 +215,6 @@
 		(fill yes)
 		(layer "Edge.Cuts")
 		(uuid "bf14b7b6-7392-4ab5-b31b-8b1085a8b657")
-	)
-	(fp_circle
-		(center 49.67 30.89)
-		(end 50.45 31.92)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "713b2a72-957f-4bf1-a88d-1599a530cb0e")
 	)
 	(pad "1" thru_hole circle
 		(at -49.65 -30.9)

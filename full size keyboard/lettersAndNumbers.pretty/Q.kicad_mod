@@ -1,0 +1,121 @@
+(footprint "Q"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6f557c7e-506d-474b-ae62-02b0e8dc13e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Q"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "662fa64c-ecd2-4e8c-8f8f-d058b9fc193b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd455b2e-07ed-433e-a280-294d05c3a62d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99173fb0-e67a-4861-a6ab-6e1f9986f82f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -4.4)
+		(end -0.9 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30f21746-ede8-4122-b87b-1a77efabda1d")
+	)
+	(fp_line
+		(start 0.9 -4.4)
+		(end 0.9 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9eff44ee-5603-4343-9ded-9721772954d3")
+	)
+	(fp_arc
+		(start -0.9 -4.4)
+		(mid 0 -5.3)
+		(end 0.9 -4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "20dfbadf-658f-4d1a-bfa3-5fa313088600")
+	)
+	(fp_text user "Q"
+		(at -0.32 -3.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f5863253-948c-4ff1-b7a3-183ea80d9fcb")
+		(effects
+			(font
+				(face "Agency FB")
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(render_cache "Q" 0
+			(polygon
+				(pts
+					(xy 0.231449 -4.934607) (xy 0.260032 -4.918632) (xy 0.27699 -4.893548) (xy 0.283218 -4.856069)
+					(xy 0.283218 -4.070462) (xy 0.355575 -4.018499) (xy 0.355575 -3.87) (xy 0.344645 -3.87) (xy 0.27296 -3.925259)
+					(xy 0.255119 -3.894868) (xy 0.227392 -3.876688) (xy 0.186193 -3.87) (xy -0.160814 -3.87) (xy -0.204925 -3.876095)
+					(xy -0.232909 -3.891974) (xy -0.249606 -3.917048) (xy -0.255764 -3.954691) (xy -0.255764 -4.006775)
+					(xy -0.095907 -4.006775) (xy 0.123361 -4.006775) (xy 0.123361 -4.048236) (xy 0.029755 -4.120104)
+					(xy 0.029755 -4.264696) (xy 0.039342 -4.264696) (xy 0.123361 -4.201803) (xy 0.123361 -4.803984)
+					(xy -0.095907 -4.803984) (xy -0.095907 -4.006775) (xy -0.255764 -4.006775) (xy -0.255764 -4.856069)
+					(xy -0.249537 -4.893553) (xy -0.232587 -4.918637) (xy -0.204022 -4.934608) (xy -0.158799 -4.94076)
+					(xy 0.186193 -4.94076)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
